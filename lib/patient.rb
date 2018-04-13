@@ -6,7 +6,7 @@ class Patient
   end
 
   def add_appointment(appointment)
-    
+  end
 
 
 
