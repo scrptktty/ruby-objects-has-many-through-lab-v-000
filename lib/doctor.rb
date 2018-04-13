@@ -14,4 +14,8 @@ class Doctor
   def appointments
     @appointments
   end
+
+  def patients
+    # map
+  end
 end
