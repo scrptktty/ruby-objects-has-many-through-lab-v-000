@@ -10,5 +10,6 @@ class Patient
 
   def doctors
     #map
+  end
 
 end
