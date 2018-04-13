@@ -3,13 +3,18 @@ class Patient
 
   def initialize(name)
     @name = name
+    @appointments = []
   end
 
   def add_appointment(appointment)
+    @appointments << appointment
+    
   end
 
   def doctors
-    #map
+    @appointments.map do |appointment|
+      appointment.doctor
+    end
   end
 
 end
