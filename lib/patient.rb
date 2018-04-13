@@ -8,6 +8,7 @@ class Patient
   def add_appointment(appointment)
   end
 
-
+  def doctors
+    #map
 
 end
